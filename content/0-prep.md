@@ -3,6 +3,14 @@ title: Prep
 nav: true
 --- 
 
+
+`First things first: find a place to put your research. Don't lose it. Keep it secure.`
+###🔄 Online storage & sync
+ - ⭐️ Cloudstor (https://cloudstor.aarnet.edu.au) - AU University cloud storage - free, FAST!
+ - Google Drive (https://www.google.com/drive/)
+ - MS OneDrive (https://griffitheduau-my.sharepoint.com/) - use the O365 version
+
+
 # Workshop Prep
 
 To create your own materials using `workshop-template-b`, please create a free [GitHub account](https://github.com/join) if you do not have one already.
