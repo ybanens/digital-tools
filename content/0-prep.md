@@ -3,9 +3,13 @@ title: Prep
 nav: true
 --- 
 
+# Before we begin
+
+We are going to have to get a few things in place before you join us for the workshop.
 
 `First things first: find a place to put your research. Don't lose it. Keep it secure.`
-###🔄 Online storage & sync
+### 🔄 Online storage & sync
+
  - ⭐️ Cloudstor (https://cloudstor.aarnet.edu.au) - AU University cloud storage - free, FAST!
  - Google Drive (https://www.google.com/drive/)
  - MS OneDrive (https://griffitheduau-my.sharepoint.com/) - use the O365 version
