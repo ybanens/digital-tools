@@ -8,11 +8,50 @@ nav: true
 ## Pre-analysis
 
 {% capture text %}Before you really go to work on your data, you should be sure that it is clean and usable{% endcapture %}
-{% include alert.md text=alter color="warning" %}
+{% include alert.md text=alert color="warning" %}
 
 ### 🧹 Data cleanup
-Recommended
-OpenRefine (https://openrefine.org/)
+
+***Recommended***
+
+ - [OpenRefine](https://openrefine.org/)
+ 
+ ## Analytical tools
+ 
+{% capture text %}The boundaries between qualitative and quantitative tools are becoming blurred. Some tools are specific to certain fields or use cases. [Seek methodological advice](https://www.griffith.edu.au/research/research-services/researcher-education-development/statistical-advice) before you start!{% endcapture %}
+{% include alert.md text=alert color="warning" %}
+
+### 🧮 Quantitative analysis
+
+The tools
+ - [SPSS](https://www.griffith.edu.au/student-computing/available-software) - Griffith provided - limited support
+ - [Matlab](https://www.mathworks.com/products/matlab.html) - available through some departments
+ - [STATA](https://www.stata.com/)
+ - [SAS](https://www.griffith.edu.au/student-computing/available-software)
+
+### 🧸 Text analysis
+
+The tools
+ - [NVIVO](https://www.griffith.edu.au/student-computing/available-software) - version 12 integrates with Endnote and other tools
+ - [Leximancer](https://www.griffith.edu.au/student-computing/available-software)
+ - [MaxQDA](https://www.maxqda.com/) - mixed methods analysis
+ - [Voyant](http://voyant-tools.org) - sentiment analyser
+ - [JSTOR Text Analyser](https://www.jstor.org/analyze/)
+
+## Data visualisation
+
+***Recommended***
+
+ - [Tableau](https://public.tableau.com) - academics and students have access to the full desktop version (see also the Tableau Public Gallery (https://public.tableau.com/en-us/s/gallery))
+ - [PowerBI](https://powerbi.microsoft.com)
+
+***Other options***
+
+ - [Prism](https://www.graphpad.com/scientific-software/prism/)
+ - [Chart.js](https://www.chartjs.org)
+ - [Data to Viz](https://www.data-to-viz.com/)
+
+{% include button.md text="Tableau activity" link="activity-tableau.md" color="info" %}
 
 The `workshop-template-b` [repository](https://github.com/evanwill/workshop-template-b) is a skeleton project. 
 This [site](https://evanwill.github.io/workshop-template-b/) demonstrates the output on gh-pages, and the content pages serve as examples.
