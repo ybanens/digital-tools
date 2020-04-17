@@ -4,5 +4,5 @@ nav: false
 ---
 
 
-## Data visualisation with Tableau
+# Data visualisation with Tableau
 

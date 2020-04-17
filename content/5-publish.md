@@ -5,10 +5,8 @@ nav: true
 
 # Phase 5: Publication
 
-{% capture text %}
-Managing your profile and professional relationships is as important as your actual research
-{% endcapture %}
-{% include alert.md text=text color="Secondary" %}
+{% capture text %}Managing your profile and professional relationships is as important as your actual research.{% endcapture %}
+{% include alert.md text=text color=secondary %}
 
 ### 📣 Online profile tools
 
