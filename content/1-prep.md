@@ -30,13 +30,14 @@ Just because you have OneDrive or Google Drive does not mean you have a backup. 
  - ⭐️ [Arq Backup](www.arqbackup/com) - use Arq to back your computer up to your Cloudstor or to your OneDrive.
  - [Backblaze](https://www.backblaze.com) - popular, paid.
  - [RSync](https://rsync.samba.org) - Here's the nice technical option. RSync is a command-line tool for syncing local folders with an external hard drive or network drive.
- 
 
 ### 💽 Hard-drive backup
 
  - ⭐️ Time Machine (Mac)
  - ⭐️ Windows Backup (Windows 10)
  - Drag-and-drop - why is this the worst option? Because (a) you will inevitably forget to do it at some point, and (b) each new copy replaces what was there before meaning you can't recover older versions of your work.
+
+---
 
 ## Password security
 
@@ -55,6 +56,8 @@ Getting used to using a password manager is a great investment in your overall e
  - ⭐️ [Bitwarden](www.bitwarden.com) - free and open source, multiplatform, simple to use. Very modern and well-regarded.
  - [1Password](https://1password.com) - high quality commercial (paid) option. It's been around along time and has a good reputation.
  - [Dashlane](https://www.dashlane.com)
+
+---
 
 ## Getting Organised
 

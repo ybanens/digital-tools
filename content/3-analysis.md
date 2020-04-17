@@ -16,6 +16,8 @@ nav: true
 
  - [OpenRefine](https://openrefine.org/)
  
+ ---
+ 
  ## Analytical tools
  
 {% capture text %}The boundaries between qualitative and quantitative tools are becoming blurred. Some tools are specific to certain fields or use cases. [Seek methodological advice](https://www.griffith.edu.au/research/research-services/researcher-education-development/statistical-advice) before you start!{% endcapture %}
@@ -52,6 +54,27 @@ The tools
  - [Data to Viz](https://www.data-to-viz.com/)
 
 {% include button.md text="Tableau activity" link="activity-tableau.md" color="info" %}
+
+---
+
+## Coding
+
+### 👾 Development environments
+
+***Recommended****
+ - [R](https://www.r-project.org) - support through Hacky Hour and Carpentries
+ - [Python](https://www.python.org) - support through Hacky Hour and Carpentries
+ - [GitLab](https://gitlab.rcs.griffith.edu.au) - Griffith University shared code repository
+ - [Visual Studio](https://visualstudio.microsoft.com) - mulitiplatform IDE published by Microsoft
+
+***Other tools****
+ - [Software carpentry (https://hackyhourgriffith.wordpress.com/events/soft-carp/)
+ - [Hacky Hour (https://hackyhourgriffith.wordpress.com)
+ - [GitHub (https://github.com)
+ - [Anaconda (Python development environment) (https://www.anaconda.com/distribution/)
+
+---
+
 
 The `workshop-template-b` [repository](https://github.com/evanwill/workshop-template-b) is a skeleton project. 
 This [site](https://evanwill.github.io/workshop-template-b/) demonstrates the output on gh-pages, and the content pages serve as examples.

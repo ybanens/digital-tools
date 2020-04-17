@@ -1,7 +1,49 @@
 ---
-title: Content
+title: Writing
 nav: true
 ---
+
+# Phase 4: Writing
+
+## Words on a page
+
+{% capture text %}Plain text editors are much more important than you might think. Get yourself a good one.{% endcapture %}
+{% include alert.md text=alert color=secondary %}
+
+## ✏️ Text editors
+
+***Recommended****
+ - [Sublime Text](Windows) (https://www.sublimetext.com)
+ - [Notepad++](https://notepad-plus-plus.org/)
+ - [BBEdit (Mac)](https://www.barebones.com/products/bbedit/)
+
+***Other tools***
+ - [Atom](https://atom.io)
+ - [Brackets](http://brackets.io)
+
+### Markdown editors
+
+Markdown is a simple and popular text formatting syntax. It's worth becoming familiar with it. This site is written in Markdown.
+
+***The tools****
+ - [Stackedit](https://stackedit.io)
+ - [Dillinger](https://dillinger.io)
+ - [Ulysses](Mac/iOS) (https://ulysses.app)
+ - [Marked 2](Mac) (https://marked2app.com)
+
+### 📓 Composition
+
+***Recommended***
+
+ - [Scrivener](https://www.literatureandlatte.com/scrivener/) - designed for long-form writing
+ - [LaTeX](https://www.overleaf.com) - very flexible and robust; automatic journal submission
+ - [Hemingway Editor](http://hemingwayapp.com/) - style checker
+
+***Other tools***
+
+ - [Microsoft Word](https://www.office.com) - popular—ubiquitous, almost—but not always the best tool
+ - [Manuscripts](https://www.manuscriptsapp.com)
+ - [Authorea](https://www.authorea.com) - 'Google Docs for scientists', automatic journal submission
 
 # Create Lesson Content
 
