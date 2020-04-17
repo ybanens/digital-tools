@@ -1,6 +1,6 @@
 ---
 title: Tableau activity
-nav: true
+nav: false
 ---
 
 

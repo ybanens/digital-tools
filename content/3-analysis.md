@@ -52,7 +52,7 @@ The tools
  - [Chart.js](https://www.chartjs.org)
  - [Data to Viz](https://www.data-to-viz.com/)
 
-{% include button.md text="Tableau activity" link="activity-tableau.md" color="info" %}
+{% include button.md text="Tableau activity" link="activity-tableau.html" color="info" %}
 
 ---
 
