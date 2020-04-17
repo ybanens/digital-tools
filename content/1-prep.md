@@ -8,7 +8,8 @@ nav: true
 
 ## Data storage
 
-`First things first: find a place to put your research. Don't lose it. Keep it secure.`
+{% capture alert %}First things first: find a place to put your research. Don't lose it. Keep it secure.{% endcapture %}
+{% include alert.md text=alert color=primary %}
 
 ### 🔄 Online storage & sync
 
@@ -18,7 +19,8 @@ nav: true
 
 ## Backup
 
-`Remember, sync is not the same as backup!`
+{% capture alert %}Remember, sync is not the same as backup!{% endcapture %}
+{% include alert.md text=alert %}
 
 Just because you have OneDrive or Google Drive does not mean you have a backup. Run a backup tool in addition to these services. Your best, most secure option is to backup both to a physical hard drive and to an online service.
 
@@ -38,23 +40,13 @@ Just because you have OneDrive or Google Drive does not mean you have a backup. 
 
 ## Password security
 
-`The best way to keep your passwords /different and secure/ is to use a password manager. ⭐️ The best /password/ to use is a /passphrase/.`
+{% capture alert %}The best way to keep your passwords /different and secure/ is to use a password manager. ⭐️ The best /password/ to use is a /passphrase/.{% endcapture %}
+{% include alert.md text=alert color=tertiary %}
 
 ### 🔐 Password managers
 
 Getting used to using a password manager is a great investment in your overall experience of using the Internet. Most password managers have browser plugins that can fill login forms automatically. 
 
-{% capture text %}
-Your preferred browser may not be available on your mobile platform. That means saved passwords in your browser may not be available to you on mobile. Password managers sync data across your desktop and mobile devices so they're more readily available. {% endcapture %}
-{% include card.md header="Why can't I just let my browser remember my passwords?" text=text %}
-
-{% capture text %}
-Your preferred browser may not be available on your mobile platform. That means saved passwords in your browser may not be available to you on mobile. Password managers sync data across your desktop and mobile devices so they're more readily available. {% endcapture %}
-{% include button.md header="Why can't I just let my browser remember my passwords?" text=text %}
-
-{% capture text %}
-Your preferred browser may not be available on your mobile platform. That means saved passwords in your browser may not be available to you on mobile. Password managers sync data across your desktop and mobile devices so they're more readily available. {% endcapture %}
-{% include alert.md header="Why can't I just let my browser remember my passwords?" text=text %}
 
 
 {% include figure.html header="Why can't I just let my browser remember my passwords?" text=text %}
@@ -66,7 +58,8 @@ Your preferred browser may not be available on your mobile platform. That means 
 
 ## Getting Organised
 
-`Organisational tools have come a long way since the humble to-do list. Although those are still there too.`
+{% capture alert %}Organisational tools have come a long way since the humble to-do list. Although those are still there too.{% endcapture %}
+{% include alert.md text=alert color=secondary %}
 
 ### 📒 Note taking
 
