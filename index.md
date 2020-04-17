@@ -5,7 +5,7 @@ layout: default
 
 # Digital Tools for Research
 
-{% include figure.html img="c-and-h.jpg" alt="A boy and his tiger on an adventure" caption="Sometimes embarking on a research journey feels like this" width="75%" %}
+{% include figure.html img="c-and-h.jpeg" alt="A boy and his tiger on an adventure" caption="Sometimes embarking on a research journey feels like this" width="75%" %}
 
 A minimal Jekyll theme with Bootstrap for creating workshop websites.
 
