@@ -5,17 +5,16 @@ nav: true
 
 # Phase 4: Writing
 
-## Words on a page
+
+## ✏️ Text editors
 
 {% capture text %}Plain text editors are much more important than you might think. Get yourself a good one.{% endcapture %}
 {% include alert.md text=text color=info %}
 
-## ✏️ Text editors
-
 **Recommended**
- - [Sublime Text](Windows) (https://www.sublimetext.com)
- - [Notepad++](https://notepad-plus-plus.org/)
- - [BBEdit (Mac)](https://www.barebones.com/products/bbedit/)
+ - [Sublime Text](https://www.sublimetext.com) is one of the most popular programming text editors for Windows
+ - [Notepad++](https://notepad-plus-plus.org/) is a popular free option
+ - [BBEdit (Mac)](https://www.barebones.com/products/bbedit/) is a venerable (30y+) program with many fans in the Mac world. This website is currently being edited in BBEdit.
 
 **Other tools**
  - [Atom](https://atom.io)
@@ -26,21 +25,18 @@ nav: true
 `Markdown` is a simple and popular text formatting syntax. It's worth becoming familiar with it. This site is written in Markdown.
 
 **The tools**
- - [Stackedit](https://stackedit.io)
- - [Dillinger](https://dillinger.io)
- - [Ulysses](Mac/iOS) (https://ulysses.app)
- - [Marked 2](Mac) (https://marked2app.com)
+ - [Dillinger](https://dillinger.io) and [Stackedit](https://stackedit.io) are popular and free online Markdown editors.
+ - [Ulysses](https://ulysses.app) is a general-purpose writing app with good Markdown support.
+ - [Marked 2 (Mac)](https://marked2app.com)
 
 ### 📓 Composition
 
 **Recommended**
-
- - [LaTeX](https://www.overleaf.com) - `LaTeX` is a text formatting language (like `Markdown``) which is very flexible and robust. It is format agnostic your document structure, headings and figures can use any style you like. Overleaf is a web-based LaTeX editor with many built-in templates and automatic preview. It can automatically format your paper for certain journals and even submit them for you.
+ - [LaTeX](https://www.overleaf.com) - `LaTeX` is a text formatting language (like `Markdown`) which is very flexible and robust. It is format agnostic your document structure, headings and figures can use any style you like. Overleaf is a web-based LaTeX editor with many built-in templates and automatic preview. It can automatically format your paper for certain journals and even submit them for you.
  - [Scrivener](https://www.literatureandlatte.com/scrivener/) - designed for long-form writing
  - [Hemingway Editor](http://hemingwayapp.com/) - This website checks your text for readability. It warns you if you are being too verbose or your sentences are too long. Use it as a good guideline, without relying on it too heavily. 
 
 **Other tools**
-
  - [Microsoft Word](https://www.office.com) - popular—ubiquitous, almost—but not always the best tool
  - [Manuscripts](https://www.manuscriptsapp.com)
  - [Authorea](https://www.authorea.com) - 'Google Docs for scientists', automatic journal submission
@@ -97,14 +93,14 @@ Examples below demonstrate the includes.
 
 #### Cards
 
-```{% raw %}
+``{% raw %}
 {% capture text %}
 1. Can add more complex text using markdown.
 2. Use a Liquid capture to create the text.
 3. It magically becomes a [Bootstrap Card](https://getbootstrap.com/docs/4.1/components/card/).
 {% endcapture %}
 {% include card.md text=text header="Example Card" title="Title example" img="uidaho-workshop.jpg" %}{% endraw %}
-```
+``
 
 {% capture text %}
 1. Can add more complex text using markdown.
