@@ -3,7 +3,21 @@ title: Publication
 nav: true
 ---
 
-# Resources
+# Phase 5: Publication
+
+Managing your profile and professional relationships is as important as your actual research
+
+### 📣 Online profile tools
+
+ - [Griffith Experts](https://experts.griffith.edu.au)
+ - [ORCID](https://orcid.org)
+ - [Mendeley](https://www.mendeley.com)
+ - [LinkedIn](https://au.linkedin.com)
+ - [Twitter](https://twitter.com)
+ 
+ 
+ ---
+ 
 
 To learn about using `workshop-template-b`, the [Readme](https://github.com/evanwill/workshop-template-b/blob/master/README.md) and content pages have some documentation.
 

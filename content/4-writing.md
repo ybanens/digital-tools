@@ -44,6 +44,9 @@ Markdown is a simple and popular text formatting syntax. It's worth becoming fam
  - [Microsoft Word](https://www.office.com) - popular—ubiquitous, almost—but not always the best tool
  - [Manuscripts](https://www.manuscriptsapp.com)
  - [Authorea](https://www.authorea.com) - 'Google Docs for scientists', automatic journal submission
+ 
+ ---
+ 
 
 # Create Lesson Content
 
