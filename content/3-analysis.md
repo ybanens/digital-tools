@@ -8,7 +8,8 @@ nav: true
 ## Pre-analysis
 
 {% capture text %}Before you really go to work on your data, you should be sure that it is clean and usable{% endcapture %}
-{% include alert.md text=alert color="warning" %}
+
+{% include alert.md text="Before you really go to work on your data, you should be sure that it is clean and usable""" color="warning" %}
 
 ### 🧹 Data cleanup
 
