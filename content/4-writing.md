@@ -8,16 +8,16 @@ nav: true
 ## Words on a page
 
 {% capture text %}Plain text editors are much more important than you might think. Get yourself a good one.{% endcapture %}
-{% include alert.md text=alert color=secondary %}
+{% include alert.md text=text color=info %}
 
 ## ✏️ Text editors
 
-***Recommended****
+**Recommended**
  - [Sublime Text](Windows) (https://www.sublimetext.com)
  - [Notepad++](https://notepad-plus-plus.org/)
  - [BBEdit (Mac)](https://www.barebones.com/products/bbedit/)
 
-***Other tools***
+**Other tools**
  - [Atom](https://atom.io)
  - [Brackets](http://brackets.io)
 
@@ -25,7 +25,7 @@ nav: true
 
 `Markdown` is a simple and popular text formatting syntax. It's worth becoming familiar with it. This site is written in Markdown.
 
-***The tools****
+**The tools**
  - [Stackedit](https://stackedit.io)
  - [Dillinger](https://dillinger.io)
  - [Ulysses](Mac/iOS) (https://ulysses.app)
@@ -33,13 +33,13 @@ nav: true
 
 ### 📓 Composition
 
-***Recommended***
+**Recommended**
 
  - [LaTeX](https://www.overleaf.com) - `LaTeX` is a text formatting language (like `Markdown``) which is very flexible and robust. It is format agnostic your document structure, headings and figures can use any style you like. Overleaf is a web-based LaTeX editor with many built-in templates and automatic preview. It can automatically format your paper for certain journals and even submit them for you.
  - [Scrivener](https://www.literatureandlatte.com/scrivener/) - designed for long-form writing
  - [Hemingway Editor](http://hemingwayapp.com/) - This website checks your text for readability. It warns you if you are being too verbose or your sentences are too long. Use it as a good guideline, without relying on it too heavily. 
 
-***Other tools***
+**Other tools**
 
  - [Microsoft Word](https://www.office.com) - popular—ubiquitous, almost—but not always the best tool
  - [Manuscripts](https://www.manuscriptsapp.com)
