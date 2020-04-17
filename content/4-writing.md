@@ -23,7 +23,7 @@ nav: true
 
 ### Markdown editors
 
-Markdown is a simple and popular text formatting syntax. It's worth becoming familiar with it. This site is written in Markdown.
+`Markdown` is a simple and popular text formatting syntax. It's worth becoming familiar with it. This site is written in Markdown.
 
 ***The tools****
  - [Stackedit](https://stackedit.io)
@@ -35,9 +35,9 @@ Markdown is a simple and popular text formatting syntax. It's worth becoming fam
 
 ***Recommended***
 
+ - [LaTeX](https://www.overleaf.com) - `LaTeX` is a text formatting language (like `Markdown``) which is very flexible and robust. It is format agnostic your document structure, headings and figures can use any style you like. Overleaf is a web-based LaTeX editor with many built-in templates and automatic preview. It can automatically format your paper for certain journals and even submit them for you.
  - [Scrivener](https://www.literatureandlatte.com/scrivener/) - designed for long-form writing
- - [LaTeX](https://www.overleaf.com) - very flexible and robust; automatic journal submission
- - [Hemingway Editor](http://hemingwayapp.com/) - style checker
+ - [Hemingway Editor](http://hemingwayapp.com/) - This website checks your text for readability. It warns you if you are being too verbose or your sentences are too long. Use it as a good guideline, without relying on it too heavily. 
 
 ***Other tools***
 

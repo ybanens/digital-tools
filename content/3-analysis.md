@@ -67,10 +67,10 @@ The tools
  - [Visual Studio](https://visualstudio.microsoft.com) - mulitiplatform IDE published by Microsoft
 
 ***Other tools****
- - [Software carpentry (https://hackyhourgriffith.wordpress.com/events/soft-carp/)
- - [Hacky Hour (https://hackyhourgriffith.wordpress.com)
- - [GitHub (https://github.com)
- - [Anaconda (Python development environment) (https://www.anaconda.com/distribution/)
+ - [Software carpentry](https://hackyhourgriffith.wordpress.com/events/soft-carp/)
+ - [Hacky Hour](https://hackyhourgriffith.wordpress.com)
+ - [GitHub](https://github.com) is a popular code repository site. This site is hosted on GitHub.
+ - [Anaconda](https://www.anaconda.com/distribution/) Python development environment
 
 ---
 
