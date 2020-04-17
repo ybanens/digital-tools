@@ -44,7 +44,7 @@ Just because you have OneDrive or Google Drive does not mean you have a backup. 
 Getting used to using a password manager is a great investment in your overall experience of using the Internet. Most password managers have browser plugins that can fill login forms automatically. 
 
 {% capture text %}
-Your preferred browser may not be available on your mobile platform. That means saved passwords in your browser may not be available to you on mobile. Password managers sync data across your desktop and mobile devices so they're more readily available.
+Your preferred browser may not be available on your mobile platform. That means saved passwords in your browser may not be available to you on mobile. Password managers sync data across your desktop and mobile devices so they're more readily available. {% endcapture %}
 {% include card.md header="Why can't I just let my browser remember my passwords?" text=text %}
 
  - ⭐️ [LastPass](https://www.griffith.edu.au/passwords/lastpass) - Griffith-supported option
