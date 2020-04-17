@@ -56,7 +56,7 @@ The tools
 
 ---
 
-## Coding
+## Coding <span class="fas fa-rocket"></span> <span class="fas fa-rocket"></span> <span class="fas fa-rocket"></span> 
 
 ### 👾 Development environments
 
