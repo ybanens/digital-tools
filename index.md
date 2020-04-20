@@ -14,6 +14,10 @@ This workshop has five sections, reflecting the phases of research outlined by [
 
 {% include toc.html %}
 
+Of course, a real research project does not neatly move from one phase to the next! You will be moving between them all the time. They are convenient categories in which we can place the kinds of tools that assist you when you are doing that kind of work.
+
+---
+
 Hosted by [GitHub](http://www.github.com/), {{ site.pub_year }}.
 
 ------
