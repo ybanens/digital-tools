@@ -5,23 +5,16 @@ layout: default
 
 # Digital Tools for Research
 
-{% include figure.html img="c-and-h.jpeg" alt="A boy and his tiger on an adventure" caption="Sometimes embarking on a research journey feels like this" width="75%" %}
+{% include figure.html img="c-and-h.jpeg" alt="A boy and his tiger on an adventure" caption="How it feels to embark on a research journey" width="75%" %}
 
-A minimal Jekyll theme with Bootstrap for creating workshop websites.
+Welcome to Digital Tools for Research, a Griffith [RED](https://www.griffith.edu.au/research/research-services/researcher-education-development) workshop.
 
-*Add your workshop abstract here!*
+This workshop has five sections, reflecting the phases of research outlined by [Kramer](https://twitter.com/MsPhelps) and [Bosnan](https://twitter.com/jeroenbosman) of Utrecht University in their [extensive 2016 study](https://101innovations.wordpress.com) on scholarly tools (Kramer and Bosnan actually use seven phases, but we have simplified it to five).
 
-Write a workshop abstract here.
-
-Learn how to create a super quick easy website for a workshop by writing a few markdown files! 
-Host it for free on GitHub with gh-pages, and share!
-Fun!
-
-*See also:* [workshop-template](https://evanwill.github.io/workshop-template/), original minimal version.
 
 {% include toc.html %}
 
-Hosted by [University of Idaho Library](http://www.lib.uidaho.edu/), {{ site.pub_year }}.
+Hosted by [GitHub](http://www.github.com/), {{ site.pub_year }}.
 
 ------
 
