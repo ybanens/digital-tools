@@ -47,7 +47,7 @@ In order to install OpenRefine, Java must be installed on your computer.
 What is Java?
 Java is a programming language and runtime environment that allows small programs called 'applets' to run on almost any system. 
 
-### Install Java
+### Install Java <i class="fab fa-java"></i>
 
 1.	Go to the [Java download page](java.com/en/download)
 2.	Click on the download button
