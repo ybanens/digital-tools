@@ -14,3 +14,5 @@ Before doing this activity you will need to install Tableau onto your computer. 
 
 {% include button.md text="Install Tableau" link="workshop-prep.html" color="primary" %}
 
+---
+

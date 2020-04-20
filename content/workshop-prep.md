@@ -11,7 +11,7 @@ There are a few pieces of software to install before you start this workshop, so
 
 Microsoft Teams is a collaboration tool that provides chat, videoconference and file sharing. This workshop will be conducted using Teams. It is possible to run Teams inside a web browser but you will find it much more convenient to download the desktop application.
 
-1.	Go to the [Teams download page](teams.microsoft.com/downloads)
+1.	Go to the [Teams download page](https://teams.microsoft.com/downloads)
 2.	Click ‘Download Teams’
 3.	Complete the installation per your operating system
 
@@ -23,7 +23,7 @@ Tableau is a data visualisation software. There are two versions: Tableau Public
 
 ### Instructions for Tableau Public
 
-1. Go to the [Tableau Public download page](public.tableau.com)
+1. Go to the [Tableau Public download page](https://public.tableau.com)
 2. Enter your email address
 3. Click on the download link in your email
 4. Complete the installation per your operating system
@@ -49,7 +49,7 @@ Java is a programming language and runtime environment that allows small program
 
 ### Install Java <i class="fab fa-java"></i>
 
-1.	Go to the [Java download page](java.com/en/download)
+1.	Go to the [Java download page](https://java.com/en/download)
 2.	Click on the download button
 3.	Complete the installation per your operating system
 
@@ -57,7 +57,7 @@ Once Java is installed, you can install OpenRefine
 
 ### Install OpenRefine 
 
-1.	Go to the [OpenRefine download page](openrefine.org/download)
+1.	Go to the [OpenRefine download page](https://openrefine.org/download)
 2.	Click on the latest official distribution for your operating system
 3.	Complete the installation per your operating system
 
