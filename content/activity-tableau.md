@@ -54,8 +54,9 @@ Click on 'Sheet 1' at the bottom of the window. You will see that your columns h
 2. Drag `Number treated` from the Measures list to the `Columns` field at the top of the worksheet.{% endcapture %}
 {% include card.md header="Make a simple bar chart" text=text %}
 
-Voilà! You have your first chart. <i class="far fa-chart-bar"></i>
-
+{% capture text %}
+Voilà! You have your first chart! <i class="far fa-chart-bar"></i>{% endcapture %}
+{% include alert.md text=text color="success" %}
 ## Add filters
 
 {% capture text %}
