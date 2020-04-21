@@ -23,7 +23,7 @@ Before doing this activity you will need to install Tableau onto your computer. 
 4. Select the sample data from your Downloads folder
 5. Click OK
 
-The data should appear in columns on the bottom half of your screen.
+The data should appear in columns on the bottom half of your screen.{% endcapture %}
 {% include card.md header="Connect your data sources" text=text %}
 
 ## Prepare your data for use
@@ -44,7 +44,7 @@ The data should appear in columns on the bottom half of your screen.{% endcaptur
 
 You will start to see the power of Tableau very quickly when you move to the Worksheet. 
 
-
+1. Click on 'Go to worksheet'
 
 The value types are then placed in two categories, *measures* and *dimensions*.
 
