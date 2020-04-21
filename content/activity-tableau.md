@@ -50,21 +50,23 @@ Click on 'Sheet 1' at the bottom of the window. You will see that your columns h
 {% include modal.md button="Tell me more" color="primary" title="Dimensions and Measures" text="A *dimension* is something that can be looked at categorically, like a list of countries. A *measure* is anything that can be put on a scale: a number, like a date, or currency." %}
 
 {% capture text %}
-1. Drag the dimension 'Hospital name' to the 'Rows' field at the top of the Worksheet
-2. Drag 'Number treated' from the Measures list to the 'Columns' field at the top of the worksheet.{% endcapture %}
+1. Drag the dimension `Hospital name` to the `Rows` field at the top of the Worksheet
+2. Drag `Number treated` from the Measures list to the `Columns` field at the top of the worksheet.{% endcapture %}
 {% include card.md header="Make a simple bar chart" text=text %}
 
 Voilà! You have your first chart. <i class="far fa-chart-bar"></i>
 
-## Add a filter
+## Add filters
 
 {% capture text %}
-Oh-oh! There's a problem. One of the bars is far larger than the others, and it's not just that one hospital has been much more efficient than all the others. There is an entry called 'Queensland Reporting Hospitals' which records the sum of all the other entries. This is distorting the chart so we need to remove it. {% endcapture %}
+Oh-oh! There's a problem. One of the bars is far larger than the others, and it's not just that one hospital has been much more efficient than all the others.{% endcapture %}
 {% include alert.md text=text color="warning" %}
 
+There is an entry called `Queensland Reporting Hospitals` which records the sum of all the other entries. This is distorting the chart so we need to remove it. 
+
 {% capture text %}
-1. Drag 'Hospital name' from the Dimensions List to the 'Filters' box
-2. Scroll down and uncheck the box next to 'Queensland Reporting Hospitals'
+1. Drag `Hospital name` from the Dimensions List to the `Filters` box
+2. Scroll down and uncheck the box next to `Queensland Reporting Hospitals`
 3. Click OK
 {% endcapture %}
 {% include card.md header="Add a filter to your data" text=text %}
@@ -72,9 +74,22 @@ Oh-oh! There's a problem. One of the bars is far larger than the others, and it'
 There's one more filter we need to add. In the 'Urgency' field, there is also a summary row that is distorting the data. So let's do it again for Urgency.
 
 {% capture text %}
-1. Drag 'Urgency' from the Dimensions List to the 'Filters' box
-2. Scroll down and uncheck the box next to 'ALL'
+1. Drag `Urgency` from the Dimensions List to the `Filters` box
+2. Scroll down and uncheck the box next to `ALL`. Make sure the others are checked.
 3. Click OK
 {% endcapture %}
-{% include card.md header="Filter 'ALL' out of Urgency results" text=text %}
+{% include card.md header="Filter urgency results" text=text %}
+
+## Sort and colour
+
+It's time to make it look a bit nicer. 
+
+{% capture text %}
+1. Click the `Sort descending` button on the toolbar. 
+2. Drag `Number treated` from the Measures list to the `Color` box under the heading 'Marks'
+3. Click the `Color` button
+4. Click `Edit colors`
+5. Select a palette from the `Palette` drop-down. I chose 'Red-Green Diverging'
+{% endcapture %}
+{% include card.md header="Sort and colour" text=text %}
 
