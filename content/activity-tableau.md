@@ -44,8 +44,10 @@ The data should appear in columns on the bottom half of your screen.{% endcaptur
 
 You will start to see the power of Tableau very quickly when you move to the Worksheet. 
 
-1. Click on 'Go to worksheet'
+1. Click on 'Sheet 1' at the bottom of the window
 
-The value types are then placed in two categories, *measures* and *dimensions*.
+{% capture text %}
+You will see that your columns have been placed in two categories, *dimensions* and *measures*.{% endcapture %}
+{% include alert.md text=text color="info" %}
 
-{% include modal.md button="Tell me more" color="primary" title="Example Modal" text="A *measure* is anything that can be put on a scale—a number, like a date, or currency. A *dimension* is something that can be looked at categorically, like a list of countries." %}
+{% include modal.md button="Tell me more" color="primary" title="Example Modal" text="A *dimension* is something that can be looked at categorically, like a list of countries. A *measure* is anything that can be put on a scale: a number, like a date, or currency." %}
