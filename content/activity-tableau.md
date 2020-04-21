@@ -6,7 +6,7 @@ nav: false
 
 # Data visualisation with Tableau
 
-Tableau is a powerful and flexible data visualisation tool. 
+`Tableau` is a powerful and flexible data visualisation tool. 
 
 ## Before you start
 
@@ -41,13 +41,40 @@ The data should appear in columns on the bottom half of your screen.{% endcaptur
 {% include card.md header="Connect your data sources" text=text %}
 
 ## Make your first chart
-
-You will start to see the power of Tableau very quickly when you move to the Worksheet. 
-
-1. Click on 'Sheet 1' at the bottom of the window
-
 {% capture text %}
-You will see that your columns have been placed in two categories, *dimensions* and *measures*.{% endcapture %}
+You will start to see the power of Tableau very quickly when you move to the Worksheet. {% endcapture %}
 {% include alert.md text=text color="info" %}
 
-{% include modal.md button="Tell me more" color="primary" title="Example Modal" text="A *dimension* is something that can be looked at categorically, like a list of countries. A *measure* is anything that can be put on a scale: a number, like a date, or currency." %}
+Click on 'Sheet 1' at the bottom of the window. You will see that your columns have been placed in two categories, `dimensions` and `measures`.
+
+{% include modal.md button="Tell me more" color="primary" title="Dimensions and Measures" text="A *dimension* is something that can be looked at categorically, like a list of countries. A *measure* is anything that can be put on a scale: a number, like a date, or currency." %}
+
+{% capture text %}
+1. Drag the dimension 'Hospital name' to the 'Rows' field at the top of the Worksheet
+2. Drag 'Number treated' from the Measures list to the 'Columns' field at the top of the worksheet.{% endcapture %}
+{% include card.md header="Make a simple bar chart" text=text %}
+
+Voilà! You have your first chart. <i class="far fa-chart-bar"></i>
+
+## Add a filter
+
+{% capture text %}
+Oh-oh! There's a problem. One of the bars is far larger than the others, and it's not just that one hospital has been much more efficient than all the others. There is an entry called 'Queensland Reporting Hospitals' which records the sum of all the other entries. This is distorting the chart so we need to remove it. {% endcapture %}
+{% include alert.md text=text color="warning" %}
+
+{% capture text %}
+1. Drag 'Hospital name' from the Dimensions List to the 'Filters' box
+2. Scroll down and uncheck the box next to 'Queensland Reporting Hospitals'
+3. Click OK
+{% endcapture %}
+{% include card.md header="Add a filter to your data" text=text %}
+
+There's one more filter we need to add. In the 'Urgency' field, there is also a summary row that is distorting the data. So let's do it again for Urgency.
+
+{% capture text %}
+1. Drag 'Urgency' from the Dimensions List to the 'Filters' box
+2. Scroll down and uncheck the box next to 'ALL'
+3. Click OK
+{% endcapture %}
+{% include card.md header="Filter 'ALL' out of Urgency results" text=text %}
+
