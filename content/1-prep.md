@@ -6,6 +6,8 @@ nav: true
 
 # Phase 1 - Preparation
 
+{% include figure.html img="ch-preparation.png" alt="A boy and his tiger look out to the distance" caption="Preparing to embark" width="75%" %}
+
 ## Data storage
 
 {% capture alert %}First things first: find a place to put your research. Don't lose it. Keep it secure.{% endcapture %}

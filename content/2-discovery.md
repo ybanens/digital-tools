@@ -5,6 +5,8 @@ nav: true
 
 # Phase 2: Discovery
 
+{% include figure.html img="ch-discovery.png" alt="A boy and his tiger run to the snow" caption="Oh boy! Here we go!" width="75%" %}
+
 ## Qualitiative data capture
 
 ### Survey tools 💬 

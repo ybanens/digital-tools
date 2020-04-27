@@ -5,9 +5,11 @@ nav: true
 
 # Phase 3: Analysis
 
+{% include figure.html img="ch-analysis.png" alt="A boy and his tiger examine the news" caption="Hm, this looks complicated" width="75%" %}
+
 ## Pre-analysis
 
-{% include alert.md text="Before you really go to work on your data, you should be sure that it is clean and usable" color="warning" %}
+{% include alert.md text="Before you really go to work on your data, you should be sure that it is clean and usable" color="info" %}
 
 ### 🧹 Data cleanup
 

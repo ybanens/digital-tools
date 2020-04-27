@@ -5,6 +5,8 @@ nav: true
 
 # Phase 5: Publication
 
+{% include figure.html img="ch-publication.png" alt="A boy speaks on the phone" caption="Hello? I'd like to tell you a story" width="75%" %}
+
 {% capture text %}Managing your profile and professional relationships is as important as your actual research.{% endcapture %}
 {% include alert.md text=text color=secondary %}
 

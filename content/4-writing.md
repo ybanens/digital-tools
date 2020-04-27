@@ -5,6 +5,7 @@ nav: true
 
 # Phase 4: Writing
 
+{% include figure.html img="ch-writing.png" alt="A boy and his tiger write together" caption="Writing is hard" width="75%" %}
 
 ## ✏️ Text editors
 
