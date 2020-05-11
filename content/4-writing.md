@@ -43,7 +43,14 @@ nav: true
  - [Authorea](https://www.authorea.com) - 'Google Docs for scientists', automatic journal submission
  
  ---
- 
+
+{% capture text %}**All done here?** Head to the [next page](5-publish.html) or [ask a question](https://griffithu.padlet.org/y_banens1/60je7s1g90b3f69h){:target="_blank"}. 
+{% endcapture %}
+{% include alert.md text=text color="success" %}
+
+---
+
+<!-- 
 
 # Create Lesson Content
 
@@ -117,3 +124,5 @@ Examples below demonstrate the includes.
 `{% raw %}{% include modal.md button="Try Me" color="success" title="Example Modal" text="This is a modal, with little text." %}{% endraw %}`
 
 {% include modal.md button="Try Me" color="success" title="Example Modal" text="This is a modal, with little text." %}
+
+-->

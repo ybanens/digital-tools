@@ -76,6 +76,6 @@ The tools
 
 ---
 
-{% capture text %}**All Done with this section?** Head to the [next page](4-writing.html) or [ask a question](https://griffithu.padlet.org/y_banens1/60je7s1g90b3f69h){:target="_blank"}. 
+{% capture text %}**All done here?** Head to the [next page](4-writing.html) or [ask a question](https://griffithu.padlet.org/y_banens1/60je7s1g90b3f69h){:target="_blank"}. 
 {% endcapture %}
 {% include alert.md text=text color="success" %}
