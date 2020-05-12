@@ -14,8 +14,6 @@ Before doing this activity you will need to install Tableau onto your computer. 
 
 {% include button.md text="Install Tableau" link="workshop-prep.html" color="primary" %}
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FN0jOkSiqps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 {% capture text %}
 1. Download the sample data: [Queensland Hospital Procedures 2018](https://griffitheduau.sharepoint.com/sites/DigitalToolsforResearchApril2019/Shared Documents/General/Queensland Hospital Procedures 2018.xls)
 2. Launch Tableau
@@ -37,7 +35,13 @@ You will see that Tableau attempts to detect what kind of value is in each colum
 4. Click on the 'Abc' at the top of 'Date updated'
 5. Select 'Date and time' from the list
 
-The data should appear in columns on the bottom half of your screen.{% endcapture %}
+The data should appear in columns on the bottom half of your screen.
+
+Now watch the video below which will take you through the next few stages of the activity.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FN0jOkSiqps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+{% endcapture %}
 {% include card.md header="Connect your data sources" text=text %}
 
 ## Make your first chart
