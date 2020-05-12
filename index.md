@@ -41,7 +41,7 @@ The average number of digital tools in a researcher's toolbox is 22. If you coun
 
 ---
 
-{% capture text %}**Ready to move on?** Head to the [next page](1-prep.html) or [ask a question](https://griffithu.padlet.org/y_banens1/60je7s1g90b3f69h){:target="_blank"}. 
+{% capture text %}**Ready to move on?** Head to the [next page](content/1-prep.html) or [ask a question](https://griffithu.padlet.org/y_banens1/60je7s1g90b3f69h){:target="_blank"}. 
 {% endcapture %}
 {% include alert.md text=text color="success" %}
 
