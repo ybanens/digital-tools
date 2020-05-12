@@ -55,7 +55,8 @@ Getting used to using a password manager is a great investment in your overall e
 You could, but you would be missing out on a few of the key benefits of password managers, like checking that your passwords aren't being reused across services, generating new passwords for you and syncing your passwords across mobile and desktop devices.
 {% include figure.html img="ch-preparation.png" alt="A boy and his tiger look out to the distance" caption="Preparing to embark" width="75%" %}
 {% endcapture %}
-{% include modal.md button="Why can't I just let my browser remember my passwords?" color="info" title="Example Modal" text=text %}
+{% include modal.md button="Why can't I just let my browser remember my passwords?" color="info" title="Why not save in a browser" text=text %}
+
 
  - ⭐️ [LastPass](https://www.griffith.edu.au/passwords/lastpass) - Griffith-supported option
  - ⭐️ [Bitwarden](www.bitwarden.com) - free and open source, multiplatform, simple to use. Very modern and well-regarded.
