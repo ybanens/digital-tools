@@ -1,18 +1,12 @@
 ---
-title: Tableau activity
+title: Voyant activity
 nav: false
 ---
 
 
-# Data visualisation with Tableau
+# Text analysis with Voyant
 
-`Tableau` is a powerful and flexible data visualisation tool. 
-
-## Before you start
-
-Before doing this activity you will need to install Tableau onto your computer. Tableau Public is already installed on the student-use computers at Griffith. If you are using your own computer, follow the instructions below to install Tableau.
-
-{% include button.md text="Install Tableau" link="workshop-prep.html" color="primary" %}
+`Voyant` is a free web-based text analysis tool. 
 
 
 {% capture text %}

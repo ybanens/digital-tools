@@ -21,8 +21,9 @@ nav: true
 
 ## Backup
 
-{% capture alert %}Remember, sync is not the same as backup!{% endcapture %}
-{% include alert.md text=alert %}
+{% capture text %}**Remember:** sync is not the same as backup! Why? Because when you're syncing, if you delete something from your computer, it's also deleted from the remote copy. That's the **opposite** of a backup!{% endcapture %}
+{% include alert.md text=text color="warning" %}
+
 
 Just because you have OneDrive or Google Drive does not mean you have a backup. Run a backup tool in addition to these services. Your best, most secure option is to backup both to a physical hard drive and to an online service.
 
@@ -43,16 +44,18 @@ Just because you have OneDrive or Google Drive does not mean you have a backup. 
 
 ## Password security
 
-{% capture alert %}The best way to keep your passwords /different and secure/ is to use a password manager. ⭐️ The best /password/ to use is a /passphrase/.{% endcapture %}
-{% include alert.md text=alert color=tertiary %}
+{% capture alert %}The best way to keep your passwords /different and secure/ is to use a password manager. ⭐️ The best *password* to use is a *passphrase*.{% endcapture %}
+{% include alert.md text=alert color="tertiary" %}
 
 ### 🔐 Password managers
 
 Getting used to using a password manager is a great investment in your overall experience of using the Internet. Most password managers have browser plugins that can fill login forms automatically. 
 
+{% capture text %}
+You could, but you would be missing out on a few of the key benefits of password managers, like checking that your passwords aren't being reused across services, generating new passwords for you and syncing your passwords across mobile and desktop devices.
+{% include figure.html img="ch-preparation.png" alt="A boy and his tiger look out to the distance" caption="Preparing to embark" width="75%" %}
 
-
-{% include figure.html header="Why can't I just let my browser remember my passwords?" text=text %}
+{% include modal.md button="Why can't I just let my browser remember my passwords?" color="info" title="Example Modal" text=text %}
 
  - ⭐️ [LastPass](https://www.griffith.edu.au/passwords/lastpass) - Griffith-supported option
  - ⭐️ [Bitwarden](www.bitwarden.com) - free and open source, multiplatform, simple to use. Very modern and well-regarded.
@@ -64,7 +67,7 @@ Getting used to using a password manager is a great investment in your overall e
 ## Getting Organised
 
 {% capture alert %}Organisational tools have come a long way since the humble to-do list. Although those are still there too.{% endcapture %}
-{% include alert.md text=alert color=secondary %}
+{% include alert.md text=alert color="secondary" %}
 
 ### 📒 Note taking
 
