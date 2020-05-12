@@ -32,7 +32,7 @@ This workshop has more show-and-tell about it (in the online version, this might
 
 To start with, why not start by putting a number on your own digital toolbox? Take a moment to estimate how many digital tools you use in your research workflow. Once you have come up with a number, click the button below to see where you stand in relation to other researchers. 
 
-{% include modal.md button="Show me" color="info" title="Show me the average number of tools used by other researchers" src="/images/tool-freq-dist.png" %}
+{% include modal.md button="Show me" color="info" title="Show me the average number of tools used by other researchers" text="The average number of digital tools in a researcher's toolbox is 22." image="https://ybanens.github.io/digital-tools/images/tool-freq-dist.png" %}
 
 ---
 
