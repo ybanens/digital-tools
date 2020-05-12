@@ -15,7 +15,10 @@ nav: true
 
 ### 🔄 Online storage & sync
 
- - ⭐️ [Cloudstor](https://cloudstor.aarnet.edu.au) - AU University cloud storage - free, FAST!
+ - ⭐️ [Cloudstor](https://cloudstor.aarnet.edu.au) is powered by AARNet (The Australian Academic Research Network) and provides students and researchers with a Terabyte of free, ultra-fast storage. It's easy to set up and works just like Dropbox.
+ 
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/mGaqxrrxfgA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
  - [Google Drive](https://www.google.com/drive/)
  - [MS OneDrive](https://griffitheduau-my.sharepoint.com/) - use the O365 version
 
@@ -97,9 +100,8 @@ Other options
  - Things app (Apple devices)
  - Asana
  
+ ---
  
 {% capture text %}**All done here?** Head to the [next page](2-discovery.html) or [ask a question](https://griffithu.padlet.org/y_banens1/60je7s1g90b3f69h){:target="_blank"}. 
 {% endcapture %}
 {% include alert.md text=text color="success" %}
-
----
