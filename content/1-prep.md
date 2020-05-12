@@ -34,7 +34,8 @@ nav: true
 Because when you're syncing, if you delete something from your computer, it's also deleted from the remote copy. That's the **opposite** of a backup!{% endcapture %}
 {% include modal.md button="Really? Why not?" color="info" title="Why is a sync not a backup?" text=text %}
 
-Just because you have OneDrive or Google Drive does not mean you have a backup. Run a backup tool in addition to these services. Your best, most secure option is to backup both to a physical hard drive and to an online service.
+
+You should run a backup tool *in addition* to the services above. Your best, most secure option is to backup both to a physical hard drive and to an online service.
 
 {% capture text %}
  - ⭐️ [Griffith Research Storage](https://research-storage.griffith.edu.au) is built on the same technology as Cloudstor and is very fast. Research Vault is available for you to store data you are no longer actively using.
@@ -48,16 +49,16 @@ Just because you have OneDrive or Google Drive does not mean you have a backup. 
  - ⭐️ Windows Backup (Windows 10)
  - Drag-and-drop is the worst option!
 
-{% capture text %}
+{% capture why %}
 Because (a) you will inevitably forget to do it at some point, and (b) each new copy replaces what was there before meaning you can't recover older versions of your work.{% endcapture %} 
-{% include modal.md button="Why?" color="info" title="Why drag and drop is a bad idea" text=text %}{% endcapture %}
+{% include modal.md button="Why?" color="info" title="Why drag and drop is a bad idea" text=why %}{% endcapture %}
 {% include card.md header="💽 Hard-drive backup" text=text %}
 
 ---
 
 ## Password security
 
-{% capture alert %}The best way to keep your passwords /different and secure/ is to use a password manager. ⭐️ The best *password* to use is a *passphrase*.{% endcapture %}
+{% capture text %}The best way to keep your passwords *different and secure* is to use a password manager. ⭐️ The best *password* to use is a *passphrase*.{% endcapture %}
 {% include alert.md text=alert color="tertiary" %}
 
 ### 🔐 Password managers
@@ -71,44 +72,46 @@ You could, but you would be missing out on a few of the key benefits of password
 {% include modal.md button="Why can't I just let my browser remember my passwords?" color="info" title="Why not save in a browser" text=text %}
 
 
- - ⭐️ [LastPass](https://www.griffith.edu.au/passwords/lastpass) - Griffith-supported option
- - ⭐️ [Bitwarden](www.bitwarden.com) - free and open source, multiplatform, simple to use. Very modern and well-regarded.
+{% capture text %}
+ - ⭐️ [LastPass](https://www.griffith.edu.au/passwords/lastpass) is Griffith's supported password manager. It is available to all staff. 
+ - ⭐️ [Bitwarden](www.bitwarden.com) is free and open source, multiplatform, simple to use. Very modern and well-regarded.
  - [1Password](https://1password.com) - high quality commercial (paid) option. It's been around along time and has a good reputation.
- - [Dashlane](https://www.dashlane.com)
+ - [Dashlane](https://www.dashlane.com){% endcapture %}
+{% include card.md header="Recommended password managers" text=text %}
 
 ---
 
 ## Getting Organised
 
-{% capture alert %}Organisational tools have come a long way since the humble to-do list. Although those are still there too.{% endcapture %}
-{% include alert.md text=alert color="secondary" %}
+{% capture text %}Organisational tools have come a long way since the humble to-do list. Although those are still there too.{% endcapture %}
+{% include alert.md text=text color="secondary" %}
 
-### 📒 Note taking
-
+{% capture text %}
  - ⭐️ Notion (www.notion.so) - all in one workspace. Free for education (sign in with Google using Griffith ID)
  - ⭐️ Microsoft OneNote (https://www.onenote.com/hrd)
  - Airtable (www.airtable.com) - online relational database
  - Evernote (https://evernote.com)
- - Rocketbook (https://getrocketbook.com.au/)
+ - Rocketbook (https://getrocketbook.com.au/){% endcapture %}
+{% include card.md header="📒 Note taking" text=text %}
 
-### 🧠 Mind-mapping
-
-Recommended
- - ⭐️ Diagrams.net (https://app.diagrams.net/) Fully free, integrates with OneDrive and Google Drive
+{% capture text %}
+ - ⭐️ Diagrams.net (https://app.diagrams.net/) Fully free, with web and desktop versions. A wide range of templates. Integrates with OneDrive and Google Drive.
  - MindMeister (https://www.mindmeister.com) - mind mapping tool. connect through O365 at Griffith
  - MindNode (https://mindnode.com)
  - Scapple (https://www.literatureandlatte.com/scapple/overview)
- - MindJet (https://www.mindjet.com)
+ - MindJet (https://www.mindjet.com){% endcapture %}
+{% include card.md header="🧠 Mind-mapping" text=text %}
  
- ### ✅ To-do apps
- 
-Recommended
+{% capture text %}
+**Recommended**
  - Microsoft To-Do (http://to-do.office.com - formerly Wunderlist) - syncs with O365. Captures to-dos from flagged emails.
  - Trello (trello.com) - Kanban-style task management
-Other options
+ 
+**Other options**
  - Remember the Milk
  - Things app (Apple devices)
- - Asana
+ - Asana{% endcapture %}
+{% include card.md header="✅ To-do apps" text=text %}
  
  ---
  
