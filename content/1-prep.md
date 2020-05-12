@@ -10,38 +10,48 @@ nav: true
 
 ## Data storage
 
-{% capture alert %}First things first: find a place to put your research. Don't lose it. Keep it secure.{% endcapture %}
+{% capture alert %}**First things first:** find a place to put your research. Don't lose it. Keep it secure.{% endcapture %}
 {% include alert.md text=alert color=primary %}
 
-### 🔄 Online storage & sync
-
+{% capture text %}
  - ⭐️ [Cloudstor](https://cloudstor.aarnet.edu.au) is powered by AARNet (The Australian Academic Research Network) and provides students and researchers with a Terabyte of free, ultra-fast storage. It's easy to set up and works just like Dropbox.
  
  <iframe width="560" height="315" src="https://www.youtube.com/embed/mGaqxrrxfgA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
  - [Google Drive](https://www.google.com/drive/)
- - [MS OneDrive](https://griffitheduau-my.sharepoint.com/) - use the O365 version
+ - [MS OneDrive](https://griffitheduau-my.sharepoint.com/)
 
+{% capture text %}**Note:** When signing in to OneDrive, be sure to use your Griffith credentials rather than a personal Microsoft account. {% endcapture %}
+{% include alert.md text=text color="info" %}{% endcapture %}
+{% include card.md header="🔄 Online storage & sync" text=text %}
+ 
 ## Backup
 
-{% capture text %}**Remember:** sync is not the same as backup! Why? Because when you're syncing, if you delete something from your computer, it's also deleted from the remote copy. That's the **opposite** of a backup!{% endcapture %}
+{% capture text %}**Remember:** sync is not the same as backup!{% endcapture %}
 {% include alert.md text=text color="warning" %}
 
+{% capture text %}
+Because when you're syncing, if you delete something from your computer, it's also deleted from the remote copy. That's the **opposite** of a backup!{% endcapture %}
+{% include modal.md button="Really? Why not?" color="info" title="Why is a sync not a backup?" text=text %}
 
 Just because you have OneDrive or Google Drive does not mean you have a backup. Run a backup tool in addition to these services. Your best, most secure option is to backup both to a physical hard drive and to an online service.
 
-### 🛰 Online backup
-
- - ⭐️ [Griffith Research Storage](https://research-storage.griffith.edu.au) Research Drive (speedy) and Research Vault
- - ⭐️ [Arq Backup](www.arqbackup/com) - use Arq to back your computer up to your Cloudstor or to your OneDrive.
+{% capture text %}
+ - ⭐️ [Griffith Research Storage](https://research-storage.griffith.edu.au) is built on the same technology as Cloudstor and is very fast. Research Vault is available for you to store data you are no longer actively using.
+ - ⭐️ [Arq Backup](www.arqbackup/com) - use Arq to back your computer up to your Cloudstor or to your OneDrive. It's not free, but the $50 license is less than the cost of a hard drive and makes backing up completely automatic.
  - [Backblaze](https://www.backblaze.com) - popular, paid.
- - [RSync](https://rsync.samba.org) - Here's the nice technical option. RSync is a command-line tool for syncing local folders with an external hard drive or network drive.
+ - [RSync](https://rsync.samba.org) - Here's the nice technical option. RSync is a command-line tool for syncing local folders with an external hard drive or network drive.{% endcapture %}
+{% include card.md header="🛰 Online backup" text=text %}
 
-### 💽 Hard-drive backup
-
+{% capture text %}
  - ⭐️ Time Machine (Mac)
  - ⭐️ Windows Backup (Windows 10)
- - Drag-and-drop - why is this the worst option? Because (a) you will inevitably forget to do it at some point, and (b) each new copy replaces what was there before meaning you can't recover older versions of your work.
+ - Drag-and-drop is the worst option!
+
+{% capture text %}
+Because (a) you will inevitably forget to do it at some point, and (b) each new copy replaces what was there before meaning you can't recover older versions of your work.{% endcapture %} 
+{% include modal.md button="Why?" color="info" title="Why drag and drop is a bad idea" text=text %}
+{% include card.md header="💽 Hard-drive backup" text=text %}
 
 ---
 
