@@ -35,9 +35,16 @@ To start with, why not start by putting a number on your own digital toolbox? Ta
 {% capture text %}
 The average number of digital tools in a researcher's toolbox is 22. If you count your word processor, image program, notes program, email app and so on, you can see that this is actually a realistic number!
 
-{% include figure.html img="tool-freq-dist.png" alt="Alt text" caption="Histogram of number of tools used by researcher" width="75%" %}
+{% include figure.html img="tool-freq-dist.png" alt="Alt text" caption="Histogram of number of tools used by researcher" width="100%" %}
 {% endcapture %}
 {% include modal.md button="Show me" color="info" title="Show me the average number of tools used by other researchers" text=text %}
+
+---
+
+{% capture text %}**Ready to move on?** Head to the [next page](1-prep.html) or [ask a question](https://griffithu.padlet.org/y_banens1/60je7s1g90b3f69h){:target="_blank"}. 
+{% endcapture %}
+{% include alert.md text=text color="success" %}
+
 
 ---
 

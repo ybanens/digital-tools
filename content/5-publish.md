@@ -18,8 +18,11 @@ nav: true
  - [LinkedIn](https://au.linkedin.com)
  - [Twitter](https://twitter.com)
  
- 
  ---
+
+{% capture text %}**That's it!** For now, that's all we've got to show you. We'lre going to be developing this content further over time (the digital tools landscape never sits still). In the meantime, eel free to [ask a question](https://griffithu.padlet.org/y_banens1/60je7s1g90b3f69h){:target="_blank"}. 
+{% endcapture %}
+{% include alert.md text=text color="success" %}
  
 <!-- 
 

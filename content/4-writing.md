@@ -48,7 +48,6 @@ nav: true
 {% endcapture %}
 {% include alert.md text=text color="success" %}
 
----
 
 <!-- 
 
