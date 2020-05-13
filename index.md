@@ -32,7 +32,7 @@ This workshop has more show-and-tell about it (in the online version, this might
 {% endcapture %}
 {% include card.md header="What do I need to do to get ready?" text=text %}
 
-{% include button.md text="Workshop preparation" link="workshop-prep.html" color="primary" %}
+{% include button.md text="Workshop preparation" link="content/workshop-prep.html" color="primary" %}
 
 ## Preliminary activity
 
