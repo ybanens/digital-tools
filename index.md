@@ -28,6 +28,12 @@ Of course, a real research project does not neatly move from one phase to the ne
 
 This workshop has more show-and-tell about it (in the online version, this might be more akin to browsing) than a typical workshop. The reason is that, with the variety of researchers that attend this workshop, we cannot be sure that all tools will be relevant to all participants (in fact, we can be sure that the opposite will be true!) Therefore, we will be presenting you with a selection of tools that we think may be useful, and you are welcome to try, adopt and ask questions about any of them. 
 
+{% capture text %}There are a few things you need to do to get ready for this workshop. Specifically, you'll need to install some software in order to do the exercises listed above. Click on the button below to see instructions on preparing for this workshop.
+{% endcapture %}
+{% include card.md header="What do I need to do to get ready?" text=text %}
+
+{% include button.md text="Workshop preparation" link="workshop-prep.html" color="primary" %}
+
 ## Preliminary activity
 
 To start with, why not start by putting a number on your own digital toolbox? Take a moment to estimate how many digital tools you use in your research workflow. Once you have come up with a number, click the button below to see where you stand in relation to other researchers. 
