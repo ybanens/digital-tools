@@ -11,50 +11,60 @@ nav: true
 
 {% include alert.md text="Before you really go to work on your data, you should be sure that it is clean and usable" color="info" %}
 
-### 🧹 Data cleanup
+{% capture text %}
+[OpenRefine](https://openrefine.org/) is a free, open-source tool for cleaning messy data. Do you have a survey data set with responses like 'no', nah', 'not really', and 'n/a' that all mean the same thing? Or rows of data that need to be split or combined? OpenRefine is very good at tidying this sort of thing.
+{% endcapture %}
+{% include card.md header="🧹 Data cleanup" text=text %} 
 
-***Recommended***
+Want to try it out? 
 
- - [OpenRefine](https://openrefine.org/)
- 
+{% include button.md text="Go to the OpenRefine activity" link="activity-openrefine.html" color="info" %}
+
  ---
  
- ## Analytical tools
- 
-{% capture text %}The boundaries between qualitative and quantitative tools are becoming blurred. Some tools are specific to certain fields or use cases. [Seek methodological advice](https://www.griffith.edu.au/research/research-services/researcher-education-development/statistical-advice) before you start!{% endcapture %}
-{% include alert.md text=alert color="warning" %}
+## Analytical tools
 
-### 🧮 Quantitative analysis
+{% capture text %}
+The boundaries between qualitative and quantitative tools are becoming blurred. Some tools are specific to certain fields or use cases. [Seek methodological advice](https://www.griffith.edu.au/research/research-services/researcher-education-development/statistical-advice) before you start!{% endcapture %}
+{% include alert.md text=text color="warning" %}
 
-The tools
+{% capture text %}
+Please note, an explanation of how these tools work is beyond the scope of this workshop!
+
  - [SPSS](https://www.griffith.edu.au/student-computing/available-software) - Griffith provided - limited support
  - [Matlab](https://www.mathworks.com/products/matlab.html) - available through some departments
  - [STATA](https://www.stata.com/)
- - [SAS](https://www.griffith.edu.au/student-computing/available-software)
+ - [SAS](https://www.griffith.edu.au/student-computing/available-software){% endcapture %}
+{% include card.md header="🧮 Quantitative analysis" text=text %}
 
-### 🧸 Text analysis
-
-The tools
+{% capture text %}
  - [NVIVO](https://www.griffith.edu.au/student-computing/available-software) - version 12 integrates with Endnote and other tools
  - [Leximancer](https://www.griffith.edu.au/student-computing/available-software)
  - [MaxQDA](https://www.maxqda.com/) - mixed methods analysis
  - [Voyant](http://voyant-tools.org) - sentiment analyser
- - [JSTOR Text Analyser](https://www.jstor.org/analyze/)
+ - [JSTOR Text Analyser](https://www.jstor.org/analyze/){% endcapture %}
+{% include card.md header="🧸 Text analysis" text=text %}
+
+Want to try out analysing some text? This is fun!
+
+{% include button.md text="Go to the Voyant activity" link="activity-voyant.html" color="info" %}
 
 ## Data visualisation
 
-***Recommended***
-
+{% capture text %}
  - [Tableau](https://public.tableau.com) - academics and students have access to the full desktop version (see also the Tableau Public Gallery (https://public.tableau.com/en-us/s/gallery))
- - [PowerBI](https://powerbi.microsoft.com)
+ - [PowerBI](https://powerbi.microsoft.com){% endcapture %}
+{% include card.md header="Recommended" text=text %}
 
-***Other options***
-
+{% capture text %}
  - [Prism](https://www.graphpad.com/scientific-software/prism/)
  - [Chart.js](https://www.chartjs.org)
- - [Data to Viz](https://www.data-to-viz.com/)
+ - [Data to Viz](https://www.data-to-viz.com/){% endcapture %}
+{% include card.md header="Other options" text=text %}
 
-{% include button.md text="Tableau activity" link="activity-tableau.html" color="info" %}
+Want to try out some data vasualisation?
+
+{% include button.md text="Go to the Tableau activity" link="activity-tableau.html" color="info" %}
 
 ---
 
