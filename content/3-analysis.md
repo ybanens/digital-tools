@@ -9,7 +9,7 @@ nav: true
 
 ## Pre-analysis
 
-{% include alert.md text="Before you really go to work on your data, you should be sure that it is clean and usable." color="info" %}
+{% include alert.md text="Before you really go to work on your data, you should be sure that it is clean and usable." color="primary" %}
 
 {% capture text %}
 [OpenRefine](https://openrefine.org/) is a free, open-source tool for cleaning messy data. Do you have a survey data set with responses like 'no', nah', 'not really', and 'n/a' that all mean the same thing? Or rows of data that need to be split or combined? OpenRefine is very good at tidying this sort of thing.
@@ -29,7 +29,9 @@ The boundaries between qualitative and quantitative tools are becoming blurred. 
 {% include alert.md text=text color="warning" %}
 
 {% capture text %}
-Please note, an explanation of how these tools work is beyond the scope of this workshop!
+{% capture text %}Note: an explanation of how these tools work is beyond the scope of this workshop!{% endcapture %}
+{% include alert.md text=text color="info" %}
+
 
  - [SPSS](https://www.griffith.edu.au/student-computing/available-software) - Griffith provided - limited support
  - [Matlab](https://www.mathworks.com/products/matlab.html) - available through some departments
@@ -72,7 +74,7 @@ Want to try out some data vasualisation?
 
 {% capture text %}
 {% capture text %}**What's a development environment?**
-It's a set of tools that allow you to write, debug, build and run code. Soe development environments support a single language  or platform (like R), and some (like Visual Studio) support multiple languages and platforms.
+It's a set of tools that allow you to write, debug, build and run code. Some development environments support a single language  or platform (like R), and some (like Visual Studio) support multiple languages and platforms.
 {% endcapture %}
 {% include alert.md text=text color="info" %}
 
