@@ -79,14 +79,16 @@ It's a set of tools that allow you to write, debug, build and run code. Soe deve
  - [R](https://www.r-project.org) - support through Hacky Hour and Carpentries
  - [Python](https://www.python.org) - support through Hacky Hour and Carpentries
  - [GitLab](https://gitlab.rcs.griffith.edu.au) - Griffith University shared code repository
- - [Visual Studio](https://visualstudio.microsoft.com) - mulitiplatform IDE published by Microsoft{% endcapture %}
+ - [Visual Studio](https://visualstudio.microsoft.com) - mulitiplatform IDE published by Microsoft
+ - [GitHub](https://github.com) is a popular code repository site. This site is hosted on GitHub.
+ - [Anaconda](https://www.anaconda.com/distribution/) Python development environment{% endcapture %}
+
 {% include card.md header="👾 Development environments" text=text %}
 
-**Other tools**
+{% capture text %}
  - [Software carpentry](https://hackyhourgriffith.wordpress.com/events/soft-carp/)
- - [Hacky Hour](https://hackyhourgriffith.wordpress.com)
- - [GitHub](https://github.com) is a popular code repository site. This site is hosted on GitHub.
- - [Anaconda](https://www.anaconda.com/distribution/) Python development environment
+ - [Hacky Hour](https://hackyhourgriffith.wordpress.com){% endcapture %}
+{% include card.md header="Ways to get help at Griffith" text=text %}
 
 ---
 
