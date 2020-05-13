@@ -9,7 +9,7 @@ nav: true
 
 ## Pre-analysis
 
-{% include alert.md text="Before you really go to work on your data, you should be sure that it is clean and usable" color="info" %}
+{% include alert.md text="Before you really go to work on your data, you should be sure that it is clean and usable." color="info" %}
 
 {% capture text %}
 [OpenRefine](https://openrefine.org/) is a free, open-source tool for cleaning messy data. Do you have a survey data set with responses like 'no', nah', 'not really', and 'n/a' that all mean the same thing? Or rows of data that need to be split or combined? OpenRefine is very good at tidying this sort of thing.
@@ -68,17 +68,21 @@ Want to try out some data vasualisation?
 
 ---
 
-## Coding <span class="fas fa-rocket"></span> <span class="fas fa-rocket"></span> <span class="fas fa-rocket"></span> 
+## Coding <span class="fas fa-rocket"></span> 
 
-### 👾 Development environments
+{% capture text %}
+{% capture text %}**What's a development environment?**
+It's a set of tools that allow you to write, debug, build and run code. Soe development environments support a single language  or platform (like R), and some (like Visual Studio) support multiple languages and platforms.
+{% endcapture %}
+{% include alert.md text=text color="info" %}
 
-***Recommended****
  - [R](https://www.r-project.org) - support through Hacky Hour and Carpentries
  - [Python](https://www.python.org) - support through Hacky Hour and Carpentries
  - [GitLab](https://gitlab.rcs.griffith.edu.au) - Griffith University shared code repository
- - [Visual Studio](https://visualstudio.microsoft.com) - mulitiplatform IDE published by Microsoft
+ - [Visual Studio](https://visualstudio.microsoft.com) - mulitiplatform IDE published by Microsoft{% endcapture %}
+{% include card.md header="👾 Development environments" text=text %}
 
-***Other tools****
+**Other tools**
  - [Software carpentry](https://hackyhourgriffith.wordpress.com/events/soft-carp/)
  - [Hacky Hour](https://hackyhourgriffith.wordpress.com)
  - [GitHub](https://github.com) is a popular code repository site. This site is hosted on GitHub.
