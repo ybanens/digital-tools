@@ -47,12 +47,16 @@ You should run a backup tool *in addition* to the services above. Your best, mos
 {% capture hdbackups %}
  - ⭐️ Time Machine (Mac)
  - ⭐️ Windows Backup (Windows 10)
- - Drag-and-drop is the worst option!
+ - Drag-and-drop (the worst option)
+
+{% include card.md header="💽 Hard-drive backup" text=hdbackups %}
+
+Why is drag-and-drop the worst way to back up?
+
 
 {% capture why %}
 Because (a) you will inevitably forget to do it at some point, and (b) each new copy replaces what was there before meaning you can't recover older versions of your work.{% endcapture %} 
 {% include modal.md button="Why?" color="info" title="Why drag and drop is a bad idea" text=why %}{% endcapture %}
-{% include card.md header="💽 Hard-drive backup" text=hdbackups %}
 
 ---
 
