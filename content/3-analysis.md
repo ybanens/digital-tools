@@ -78,7 +78,7 @@ It's a set of tools that allow you to write, debug, build and run code. Some dev
 {% endcapture %}
 {% include alert.md text=text color="info" %}
 
- - [R](https://www.r-project.org) - support through Hacky Hour and Carpentries
+ - [R](https://www.r-project.org) - extensible, support through Hacky Hour and Carpentries
  - [Python](https://www.python.org) - support through Hacky Hour and Carpentries
  - [GitLab](https://gitlab.rcs.griffith.edu.au) - Griffith University shared code repository
  - [Visual Studio](https://visualstudio.microsoft.com) - mulitiplatform IDE published by Microsoft
