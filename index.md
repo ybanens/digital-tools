@@ -45,9 +45,11 @@ The average number of digital tools in a researcher's toolbox is 22. If you coun
 {% endcapture %}
 {% include modal.md button="Show me" color="info" title="Show me the average number of tools used by other researchers" text=text %}
 
+---
+
 ### Recording of May 2020 workshop
 
-<iframe width="853" height="480" src="https://web.microsoftstream.com/embed/video/48ab90fe-2114-4810-ac27-15891444a64d?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
+<iframe width="640" height="360" src="https://web.microsoftstream.com/embed/video/48ab90fe-2114-4810-ac27-15891444a64d?autoplay=false&amp;showinfo=true" allowfullscreen style="border:none;"></iframe>
 
 {% capture text %}Note: You'll have to sign in with your Griffith credentials to watch this video {% endcapture %}
 {% include alert.md text=text color="warning" %}
