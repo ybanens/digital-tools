@@ -11,6 +11,11 @@ Welcome to Digital Tools for Research, a Griffith [RED](https://www.griffith.edu
 
 ## About this workshop
 
+{% capture text %}This workshop content will shortly be migrating to Griffith Library's organisational Github account! Check back here for the address. 
+Posted: 20 May 2020 {% endcapture %}
+{% include alert.md text=text color="danger" %}
+
+
 This workshop has five sections, reflecting the phases of research outlined by [Kramer](https://twitter.com/MsPhelps) and [Bosnan](https://twitter.com/jeroenbosman) of Utrecht University in their [extensive 2016 study](https://101innovations.wordpress.com) on scholarly tools (Kramer and Bosnan actually use seven phases, but we have simplified it to five).
 
 {% include toc.html %}
